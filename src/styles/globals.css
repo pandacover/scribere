@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply font-black text-6xl leading-normal tracking-normal;
+    }
+
+    h2 {
+        @apply font-extrabold text-5xl leading-normal tracking-normal;
+    }
+
+    h3 {
+        @apply font-bold text-4xl leading-normal tracking-normal;
+    }
+
+    h4 {
+        @apply font-semibold text-3xl leading-normal tracking-normal;
+    }
+
+    h5 {
+        @apply font-medium text-2xl leading-normal tracking-normal;
+    }
+
+    h6 {
+        @apply font-normal text-xl leading-normal tracking-normal;
+    }
+
+    a {
+        @apply text-purple-600 underline;
+    }
+
+    ul {
+        @apply list-disc;
+    }
+
+    ol {
+        @apply list-decimal;
+    }
+}
