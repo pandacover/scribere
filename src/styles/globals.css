@@ -39,3 +39,13 @@
         @apply list-decimal;
     }
 }
+
+button .toggle-btn {
+  transform: translateX(-.5rem);
+  transition: all 150ms linear;
+}
+
+button .toggled {
+  transform: translateX(65%);
+  background: #ccc;
+}
