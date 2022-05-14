@@ -49,3 +49,11 @@ button .toggled {
     transform: translateX(65%);
     background: #ccc;
 }
+
+body {
+    background: 0px 0px/30px 30px #24222a radial-gradient(#24222a 6%, #15131b 5%);
+}
+
+.custom-loader {
+  border-color: #00f #00f #ccc #ccc;
+}
