@@ -4,7 +4,14 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'container-height': 'calc(100vh - 64px)'
+      },
+      colors: {
+        'surface-black': '#121212'
+      }
+    },
   },
   plugins: [],
 }

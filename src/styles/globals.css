@@ -41,11 +41,11 @@
 }
 
 button .toggle-btn {
-  transform: translateX(-.5rem);
-  transition: all 150ms linear;
+    transform: translateX(-.5rem);
+    transition: all 150ms linear;
 }
 
 button .toggled {
-  transform: translateX(65%);
-  background: #ccc;
+    transform: translateX(65%);
+    background: #ccc;
 }

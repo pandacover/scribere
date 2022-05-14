@@ -1,9 +1,14 @@
-import Navbar from "./components/navbar"
+import { Navbar, Notes, Sidebar } from './components'
+
 const App = () => {
     return (
-        <div className='w-screen min-h-screen overflow-x-hidden relative dark:bg-gradient-to-r from-gray-800 to-slate-900'>
+        <div className='w-screen min-h-screen overflow-x-hidden relative dark:bg-black'>
             <Navbar />
-      	</div>
+            <main className='w-full flex'>
+                <Sidebar />
+                <Notes />
+            </main>
+        </div>
     )
 }
 
